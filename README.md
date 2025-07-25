@@ -70,6 +70,13 @@ My custom VSCode settings
     "workbench.editor.editorActionsLocation": "hidden",
     "workbench.navigationControl.enabled": false,
     "chat.commandCenter.enabled": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "terminal.integrated.tabs.location": "left",
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+    "window.commandCenter": false
 }
 ```
+
+## File Location
+- On Linux: `~/.config/Code/User/settings.json`
+- On Windows: `%APPDATA%\Code\User\settings.json`
