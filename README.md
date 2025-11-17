@@ -1,5 +1,5 @@
-# VSCode-settings
-My custom VSCode settings
+# VSCode-Settings
+My VSCode Settings
 
 ```json
 {
@@ -32,7 +32,6 @@ My custom VSCode settings
     "prettier.tabWidth": 4,
     "prettier.proseWrap": "always",
     "git.openRepositoryInParentFolders": "never",
-    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
     "workbench.preferredLightColorTheme": "Visual Studio Light",
     "extensions.ignoreRecommendations": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
@@ -54,7 +53,6 @@ My custom VSCode settings
     "git.autofetch": true,
     "makefile.configureOnOpen": false,
     "workbench.sideBar.location": "right",
-    "window.menuBarVisibility": "compact",
     "editor.lineNumbers": "off",
     "editor.renderLineHighlight": "none",
     "github.copilot.enable": {
@@ -68,15 +66,48 @@ My custom VSCode settings
     "editor.minimap.enabled": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.editorActionsLocation": "hidden",
-    "workbench.navigationControl.enabled": false,
     "chat.commandCenter.enabled": false,
-    "breadcrumbs.enabled": false,
     "terminal.integrated.tabs.location": "left",
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
-    "window.commandCenter": false
+    "debug.enableStatusBarColor": false,
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.editor.empty.hint": "hidden",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "explorer.confirmPasteNative": false,
+    "scss.validate": false,
+    "css.validate": false,
+    "update.showReleaseNotes": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "search.quickOpen.includeHistory": false,
+    "editor.inlayHints.enabled": "off",
+    "accessibility.verbosity.emptyEditorHint": false,
+    "search.useIgnoreFiles": false,
+    "typescript.workspaceSymbols.scope": "currentProject",
+    "javascript.preferences.renameMatchingJsxTags": false,
+    "typescript.preferences.renameMatchingJsxTags": false,
+    "update.mode": "manual",
+    "breadcrumbs.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordSeparators": "`~!@#$%^&*()-_=+[{]}\\|;:'\",.<>/?",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.scrollbar.horizontal": "hidden",
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${activeEditorShort}${separator}${rootName}",
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "windowed",
+    "window.menuStyle": "custom",
+    "workbench.layoutControl.enabled": false
 }
 ```
 
 ## File Location
-- On Linux: `~/.config/Code/User/settings.json`
-- On Windows: `%APPDATA%\Code\User\settings.json`
+- On my laptop: `~/.config/Code/User/settings.json`
